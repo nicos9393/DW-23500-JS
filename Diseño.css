@@ -54,5 +54,7 @@ padding: 10px;
 .paquetes__pagina_contacto{ 
     border: solid #34BBCF 2px;
     border-radius: 30px;
-    margin: 0 35;
+    padding: 10%;
+    text-align: center;
 }
+    
