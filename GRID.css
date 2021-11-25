@@ -1,0 +1,58 @@
+/*Grid*/
+/*INICIO*/
+*{
+    display: grid;
+    grid-template-areas:
+    "nav titulo sesion"
+    "mineria mineria img_mineria"
+    "forex forex img"
+    "div div img"
+    "footer footer footer";
+grid-template-columns: 2fr  2fr 1fr;
+grid-template-rows: 2fr 4fr 4fr 4fr auto;
+grid-row-gap: 1fr;
+
+}
+/*header{
+    background: rgb(5,1,82);
+background: linear-gradient(90deg, rgba(5,1,82,1) 0%, rgba(27,53,180,1) 48%, rgba(0,142,171,1) 100%);
+color: whitesmoke;
+    display: grid;
+    grid-template-areas:
+    "nav titulo sesion";
+    grid-template-columns: 2fr 4fr 1fr;
+    grid-template-rows: 4fr;
+    justify-items: center;
+    align-items: center;
+}*/
+ul li a{
+    display: flexbox;
+    flex-direction: column;
+}
+.listas{
+   
+    grid-area:nav;
+    
+}
+.sesion{
+    grid-area:sesion;
+}
+h1{
+    grid-area:titulo;
+}
+#MINERIA{
+    grid-area:mineria;
+    background: rgb(5,1,82);
+background: linear-gradient(90deg, rgba(5,1,82,1) 0%, rgba(27,53,180,1) 48%, rgba(0,142,171,1) 100%);
+    
+}
+#FOREX{
+    grid-area:forex;
+    background: rgb(5,1,82);
+background: linear-gradient(90deg, rgba(5,1,82,1) 0%, rgba(27,53,180,1) 48%, rgba(0,142,171,1) 100%);
+}
+#TERRENOS{
+    grid-area: div;
+        background: rgb(5,1,82);
+background: linear-gradient(90deg, rgba(5,1,82,1) 0%, rgba(27,53,180,1) 48%, rgba(0,142,171,1) 100%);
+}
