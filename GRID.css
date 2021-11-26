@@ -1,6 +1,6 @@
 /*Grid*/
 /*INICIO*/
-*{
+/*{
     display: grid;
     grid-template-areas:
     "nav titulo sesion"
@@ -24,7 +24,7 @@ color: whitesmoke;
     grid-template-rows: 4fr;
     justify-items: center;
     align-items: center;
-}*/
+}*//*
 ul li a{
     display: flexbox;
     flex-direction: column;
@@ -55,4 +55,77 @@ background: linear-gradient(90deg, rgba(5,1,82,1) 0%, rgba(27,53,180,1) 48%, rgb
     grid-area: div;
         background: rgb(5,1,82);
 background: linear-gradient(90deg, rgba(5,1,82,1) 0%, rgba(27,53,180,1) 48%, rgba(0,142,171,1) 100%);
+}*/
+header{ 
+    background-color: black;
+
+}
+#seccionnegro{
+    color: white;
+    background-color: black;
+    height: 300px;
+    display: grid;
+    grid-template-areas:
+    "texto1 titulo ."
+    ". titulo ." 
+    ". titulo texto2";
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    max-width: 700px;
+    margin: auto;
+}
+#seccionblanco{
+    background-color: white;
+    height: 300px;
+ 
+}
+#titulo{
+    grid-area: titulo;
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+}
+#texto1{
+    grid-area: texto1;
+    
+}
+#texto2{
+    grid-area: texto2;
+}
+#menu{
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin: 0;}
+
+#menu li{
+        display: inline;
+        margin: 10px 20px;
+    }
+.card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+/*.card{
+    grid-template-areas:
+    "subtitulo subtitulo img"
+    "texto3 " ;
+}*/
+#seccionblanco{
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    align-items: center;
+   
+}
+#seccionblanco img{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+   
+
+
 }
