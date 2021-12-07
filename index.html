@@ -6,44 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FANSAV INVERSIONES</title>
     <link rel="icon"  href="../DW-23500-JS/DIRECTORIO/IMG/FANSAV.ico">
-    <link rel="stylesheet" href="Diseño.css">
+    <link rel="stylesheet" href="../DW-23500-JS/Diseño.css">
+    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <H1>BIENVENIDOS A FANSAV</H1>
+        <H1 class="titulo">FANSAV</H1>
+        
         <nav class="blockNav">
             <ul>
-                <li>
+                <li><i class="fas fa-home"></i>
                     <a href="./index.html">Inicio</a>
                 </li>
-                <li>
+                <li><i class="fas fa-id-card"></i>
                     <a href="./Paginas/contactos.html">Contacto</a>
                 </li>
-                <li>
+                <li><i class="fas fa-users"></i>
                     <a href="./Paginas/Sobre Nosotros.html">Sobre Nosotros</a>
                 </li>
+              
             </ul>
-        </nav>
-    </header>
-    <main>
-        <H2>Lo que quieres</H2>
-            <p class="ofrecimiento">Te ofrecemos 3 grandes opciones para invertir.</p>
-        <Div class="paquetes">
-            <H3 class="paquetes__h3">Mineria</H3>
-                <h4 class="paquetes__h4">¿Que es un Rig?</h4>
-                    <p class="paquetes__p">Un rig de mineria esta basado principalmente en GPU'S (Placas graficas), las cuales complementadas con un sofware especial aportan poder de calculo a la red para validad transacciones. A partir de esto es que obtenemos nuestra "recompensa" por minar criptomonedas.</p>
-                    <img class="paquetes__img" src="../DW-23500-JS/DIRECTORIO/IMG/rigmineria.jpg" alt="rigmineria">
-                    <img class="paquetes__img" src="../DW-23500-JS/DIRECTORIO/IMG/miner.jpeg" alt="miners">
-        </Div>
-        <div class="paquetes">
-                <h3 class="paquetes__h3">Forex BOT</h3>
-                <h4 class="paquetes__h4">¿Que es un BOT de FOREX?</h4>
-                    <P class="paquetes__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci repellendus natus delectus minus exercitationem
-                         molestiae officia ab corrupti tenetur? Eum natus, minima vitae quia illo et? Accusamus perspiciatis eum tempore.</P>
-                     <img class="paquetes__img--bot" src="../DW-23500-JS/DIRECTORIO/IMG/bot forex.jpg" alt="FOREX_BOT">
+        <nav><ul>
+            <li><i <i class="fas fa-user-tie"></i></i> ENTRAR</li>
+            </ul>
+        
+        </header>
+        <header id="header_responsive">
+            <H1 class="titulo">FANSAV</H1>
+            
+            <nav class="blockNav_responsive">
+                <ul>
+                    <li><i class="fas fa-home"></i>
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                    <li><i class="fas fa-id-card"></i>
+                        <a href="./Paginas/contactos.html">Contacto</a>
+                    </li>
+                    <li><i class="fas fa-users"></i>
+                        <a href="./Paginas/Sobre Nosotros.html">Sobre Nosotros</a>
+                    </li>
+                  
+                </ul>
+            <nav><ul>
+                <li><i <i class="fas fa-user-tie"></i></i> ENTRAR</li>
+                </ul>
+            
+            </header>
+
+    <main class="noresponsiveMain">
+        <div class="contenedor">
+            <div class="contenedor__lq">
+                <H2>Lo que quieres</H2>
+                <p class="ofrecimiento">Te ofrecemos 3 grandes opciones para invertir.</p>
+            </div>
+            <Div class="paquetes">
+                <H3 class="paquetes__h3">Mineria</H3>
+                    <h4 class="paquetes__h4">¿Que es un Rig?</h4>
+                        <p class="paquetes__p">Un rig de mineria esta basado principalmente en GPU'S (Placas graficas), las cuales complementadas con un sofware especial aportan poder de calculo a la red para validad transacciones. A partir de esto es que obtenemos nuestra "recompensa" por minar criptomonedas.</p>
+                        <img class="paquetes__img" src="../DW-23500-JS/DIRECTORIO/IMG/rigmineria.jpg" alt="rigmineria">
+                        <img class="paquetes__img" src="../DW-23500-JS/DIRECTORIO/IMG/miner.jpeg" alt="miners">
+            </Div>
+            <div class="paquetes">
+                    <h3 class="paquetes__h3">Forex BOT</h3>
+                    <h4 class="paquetes__h4">¿Que es un BOT de FOREX?</h4>
+                        <P class="paquetes__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci repellendus natus delectus minus exercitationem
+                            molestiae officia ab corrupti tenetur? Eum natus, minima vitae quia illo et? Accusamus perspiciatis eum tempore.</P>
+                        <img class="paquetes__img--bot" src="../DW-23500-JS/DIRECTORIO/IMG/bot forex.jpg" alt="FOREX_BOT">
+            </div>
+            <div class="paquetes"> <h3 class="paquetes__h3">Bienes raices</h3>
+            </div>
         </div>
-        <div class="paquetes"> <h3 class="paquetes__h3">Bienes raices</h3>
+        
+        
+    </main>
+    <!-- CUERPO RESPONSIVE -->
+    <main class="responsiveMain">
+        <div class="contenedor">
+            <div class="contenedor__lq--responsive">
+                <H2>Lo que quieres</H2>
+                <p class="ofrecimiento--responsive">Te ofrecemos 3 grandes opciones para invertir.</p>
+            </div>
+            <Div class="paquetes--responsive">
+                <H3 class="paquetes__h3--responive">Mineria</H3>
+                    <h4 class="paquetes__h4--responsive">¿Que es un Rig?</h4>
+                        <p class="paquetes__p--responisve">Un rig de mineria esta basado principalmente en GPU'S (Placas graficas), las cuales complementadas con un sofware especial aportan poder de calculo a la red para validad transacciones. A partir de esto es que obtenemos nuestra "recompensa" por minar criptomonedas.</p>
+                        <img class="paquetes__img--responsive" src="../DW-23500-JS/DIRECTORIO/IMG/rigmineria.jpg" alt="rigmineria">
+                        <img class="paquetes__img--responsive" src="../DW-23500-JS/DIRECTORIO/IMG/miner.jpeg" alt="miners">
+            </Div>
+            <div class="paquetes--responsive">
+                    <h3 class="paquetes__h3--responsive">Forex BOT</h3>
+                    <h4 class="paquetes__h4--responsive">¿Que es un BOT de FOREX?</h4>
+                        <P class="paquetes__p--responsive">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci repellendus natus delectus minus exercitationem
+                            molestiae officia ab corrupti tenetur? Eum natus, minima vitae quia illo et? Accusamus perspiciatis eum tempore.</P>
+                        <img class="paquetes__img--bot--responsive" src="../DW-23500-JS/DIRECTORIO/IMG/bot forex.jpg" alt="FOREX_BOT">
+            </div>
+            <div class="paquetes"> <h3 class="paquetes__h3--responsive">Bienes raices</h3>
+            </div>
         </div>
+        
         
     </main>
     <footer>
