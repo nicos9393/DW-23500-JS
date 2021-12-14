@@ -24,7 +24,11 @@ header {
     grid-area: titulo;
     justify-self: center;
     align-self: center;
-    animation-name: color,
+    animation-name: color;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+
     
         
 ;}
@@ -183,11 +187,13 @@ nav {
         /* }fin @media */}
         
 
-
     @keyframes color{
-        0%{color: white;};
-        5%{color: yellow;};
-        10%{color:tomato};}
+        0%{color: #F6F2D4;}
+        5%{color: #95D1CC;}
+        25%{color:#84DFFF;}
+        50%{color: #CDF0EA;}
+        75%{color: #F7DBF0 ;}
+        100%{color: #BEAEE2;}}
       
 
    
