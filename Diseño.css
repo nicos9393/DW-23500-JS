@@ -17,14 +17,24 @@ header {
     grid-template-columns: 300px auto 200px;
     /* grid-template-rows: 150px auto 200; */
     
+    
 }
 .titulo { 
     
     grid-area: titulo;
     justify-self: center;
-    align-self: center
+    align-self: center;
+    animation-name: color,
+    
         
 ;}
+.titulo:hover{
+    transform: scale(2,1);
+    transition: 2s;
+    transform: rotate(360deg);
+    color: ;
+}
+
     
 header nav ul {  
     grid-area: nav;
@@ -113,6 +123,10 @@ nav {
         text-align: center;
     
     }
+    .paquetes__h3:hover{
+        transform: scale(1.2,1.2);
+    transition: 1s;
+    }
     .paquetes__h4{ 
         text-align: center;
         align-self: center;
@@ -166,7 +180,17 @@ nav {
             flex-direction: column;
             border-radius: 30px;
     border: solid 1px #34BBCF;
-        /* }fin @media */
+        /* }fin @media */}
+        
+
+
+    @keyframes color{
+        0%{color: white;};
+        5%{color: yellow;};
+        10%{color:tomato};}
+      
+
+   
         
     
         
